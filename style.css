@@ -1,0 +1,58 @@
+body{
+    background: linear-gradient(
+        135deg,
+        #0f3d3e,
+        #1b5e5f,
+        #2e8b57
+    );
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: Georgia, serif;
+}
+
+.carta{
+    background: rgba(255,255,255,0.95);
+    padding: 40px;
+    border-radius: 25px;
+    text-align: center;
+    width: 500px;
+
+    box-shadow: 0 0 30px rgba(0,0,0,0.3);
+}
+
+h1{
+    color: #0f766e;
+}
+
+p{
+    color: #14532d;
+    font-size: 18px;
+}
+
+button{
+    background: #10b981;
+    color: white;
+
+    border: none;
+    padding: 15px 25px;
+    border-radius: 15px;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover{
+    transform: scale(1.05);
+}
+
+.decoracion{
+    margin-top: 20px;
+    font-size: 25px;
+}
